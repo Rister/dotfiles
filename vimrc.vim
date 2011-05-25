@@ -29,6 +29,9 @@ set backspace=indent,eol,start
 " Make the command-line completion better
 set wildmenu
 filetype plugin indent on
+
+" Syntax Coloring
+color candycode
 syntax on
 
 " Store the swap files in the default temporary directory
