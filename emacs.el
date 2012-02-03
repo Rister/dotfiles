@@ -15,3 +15,16 @@
       `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
+
+;; Update open files
+(global-auto-revert-mode 1)
+
+;; use ibuffer
+(require 'ibuffer)
+(global-set-key (kbd "C-x C-b")
+		'ibuffer-other-window)
+(setq ibuffer-default-sorting-mode 'major-mode)
+
+;; hippie-expand
+(global-set-key (kbd "M-/")
+		'hippie-expand)
