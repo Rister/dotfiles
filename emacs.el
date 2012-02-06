@@ -28,3 +28,8 @@
 ;; hippie-expand
 (global-set-key (kbd "M-/")
 		'hippie-expand)
+
+;; turn off unnecessary UI elements
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
