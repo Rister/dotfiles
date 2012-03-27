@@ -3,3 +3,6 @@ specific.
 
 +--- vimconfig.vim ---+
 This is my standard ViM Configuration file.
+
+
+This is also where I keep my emacs config.
