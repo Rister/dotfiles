@@ -1,0 +1,8 @@
+This is a random project for small scripts that may or may not be OS
+specific.
+
++--- vimconfig.vim ---+
+This is my standard ViM Configuration file.
+
+
+This is also where I keep my emacs config.

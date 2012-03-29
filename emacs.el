@@ -29,12 +29,13 @@
 (global-set-key (kbd "M-/")
 		'hippie-expand)
 
-;; Turn off unnecessary ui elements
+;; turn off unnecessary UI elements
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
-;; uniquify for nice buffer names
+;; Uniquify for nice buffer names
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'post-forward
       uniquify-separator ":")
+

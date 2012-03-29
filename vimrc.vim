@@ -31,7 +31,9 @@ set wildmenu
 filetype plugin indent on
 
 " Syntax Coloring
-color candycode
+if has('gui_running")
+    color candycode
+endif
 syntax on
 
 " Store the swap files in the default temporary directory
