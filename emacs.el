@@ -15,3 +15,26 @@
       `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
+
+;; Update open files
+(global-auto-revert-mode 1)
+
+;; use ibuffer
+(require 'ibuffer)
+(global-set-key (kbd "C-x C-b")
+		'ibuffer-other-window)
+(setq ibuffer-default-sorting-mode 'filename/process)
+
+;; hippie-expand
+(global-set-key (kbd "M-/")
+		'hippie-expand)
+
+;; Turn off unnecessary ui elements
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+
+;; uniquify for nice buffer names
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'post-forward
+      uniquify-separator ":")
