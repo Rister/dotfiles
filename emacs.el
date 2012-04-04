@@ -34,6 +34,10 @@
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
+;; Show line-number and column-number in the mode line
+(line-number-mode 1)
+(column-number-mode 1)
+
 ;; Uniquify for nice buffer names
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'post-forward
