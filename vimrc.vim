@@ -31,7 +31,7 @@ set wildmenu
 filetype plugin indent on
 
 " Syntax Coloring
-if has('gui_running")
+if has('gui_running')
     color candycode
 endif
 syntax on
