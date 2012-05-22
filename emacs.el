@@ -1,3 +1,9 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;  Standard .emacs stuff on top, custom on the bottom.
+
+(global-font-lock-mode t)
+(show-paren-mode 1)
+
 ;; ido mode
 (ido-mode 1)
 (setq ido-enable-flex-matching t)
@@ -43,3 +49,10 @@
 (setq uniquify-buffer-name-style 'post-forward
       uniquify-separator ":")
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Begin Custom Section of .emacs file.
+
+;; color-theme
+;(require 'color-theme)
+;(color-theme-initialize)
+;(color-theme-oswald)
