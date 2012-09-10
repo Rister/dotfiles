@@ -16,6 +16,7 @@ autocmd BufEnter *.otl setlocal noexpandtab
 " This displays the line numbers on the left edge of the window.
 set number
 set numberwidth=5
+set ruler
 
 " Allow unsaved buffers to be hidden
 set hidden
