@@ -59,3 +59,7 @@ if has('gui_running')
     set guifont=Courier_New:h9:cANSI
 
 endif
+
+" Decent Search Highlighting
+set hlsearch
+nnoremap <esc> :noh<return><esc>
