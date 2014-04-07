@@ -59,3 +59,10 @@ if has('gui_running')
     set guifont=Courier_New:h9:cANSI
 
 endif
+
+" Turn on Spell Check
+set spell
+
+" Decent Search highlighting
+set hlsearch
+nnoremap <esc> :noh<return><esc>
