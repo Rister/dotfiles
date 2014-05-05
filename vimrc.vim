@@ -10,12 +10,16 @@ set shiftwidth=4
 
 " The following line is to stop the auto expandtab from trashing Makefiles
 autocmd FileType make setlocal noexpandtab
-" This is for vimoutliner .otl files
-autocmd BufEnter *.otl setlocal noexpandtab
 
 " This displays the line numbers on the left edge of the window.
 set number
 set numberwidth=5
+
+" Line at 80 columns
+set nowrap
+set fo-=t
+set tw=79
+set colorcolumn=80
 set ruler
 
 " Allow unsaved buffers to be hidden
