@@ -1,4 +1,4 @@
-" Set pure vim mode
+" Set pure Vim mode
 set nocompatible
 
 " Proper Tabstops
@@ -16,11 +16,11 @@ set number
 set numberwidth=5
 
 " Line at 80 columns
-set nowrap
-set fo-=t
-set tw=79
 set colorcolumn=80
+set fo-=t
+set nowrap
 set ruler
+set tw=79
 
 " Allow unsaved buffers to be hidden
 set hidden
@@ -37,7 +37,10 @@ filetype plugin indent on
 
 " Syntax Coloring
 if has('gui_running')
-    color candycode
+    let g:solarized_contrast="high"
+    let g:solarized_visibility="high"
+    colorscheme solarized
+    set background=dark
 endif
 syntax on
 
