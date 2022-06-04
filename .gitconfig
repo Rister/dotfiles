@@ -9,3 +9,7 @@
 	diff = auto
 	interactive = auto
 	status = auto
+[init]
+	defaultBranch = trunk
+[core]
+    editor = nvim
